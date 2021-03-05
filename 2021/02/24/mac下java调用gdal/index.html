@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="gdal," />
+  <meta name="keywords" content="java,gdal," />
 
 
 
@@ -87,8 +87,9 @@
 <meta property="og:description" content="mac下java调用gdal找了很多资料，一直没搞明白为什么一会要安装配置，一会又要maven配置，印象中java的话，直接maven下载好不是就可以用了吗。后来终于搞明白其中缘由，现在记录一下。 1.下载安装GDAL库这一步其实就是把GDAL库下载并安装到本地电脑上，就像安卓等这些的sdk一样，先下载安装，然后配置好，再用于调用。GDAL本身是C++写的，可以直接找已经编译好的对应平台的包，也可">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-02-24T01:24:37.000Z">
-<meta property="article:modified_time" content="2021-03-05T02:05:27.999Z">
+<meta property="article:modified_time" content="2021-03-05T02:58:53.669Z">
 <meta property="article:author" content="zqgogo">
+<meta property="article:tag" content="java">
 <meta property="article:tag" content="gdal">
 <meta name="twitter:card" content="summary">
 
@@ -375,6 +376,8 @@
       
         <div class="post-tags">
           
+            <a href="/tags/java/" rel="tag"># java</a>
+          
             <a href="/tags/gdal/" rel="tag"># gdal</a>
           
         </div>
@@ -494,10 +497,10 @@
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -536,6 +539,19 @@
       <!--/noindex-->
       
 
+      
+
+      
+      <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+      <div class="widget-wrap">
+          <h3 class="widget-title">Tag Cloud</h3>
+          <div id="myCanvasContainer" class="widget tagcloud">
+              <canvas width="250" height="250" id="resCanvas" style="width=100%">
+                  <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/gdal/" rel="tag">gdal</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/" rel="tag">java</a><span class="tag-list-count">1</span></li></ul>
+              </canvas>
+          </div>
+      </div>
       
 
     </div>
